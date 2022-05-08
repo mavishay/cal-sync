@@ -3,10 +3,10 @@ import { useEffect, ReactNode } from 'react'
 import { useAuth } from 'ui'
 
 interface ILayout {
-  children?: ReactNode
+  children: ReactNode
 }
 
-const Layout = ({ children }: ILayout) => {
+function Layout({ children }: ILayout) {
   const { isApproved } = useAuth()
   const router = useRouter()
 
@@ -17,7 +17,7 @@ const Layout = ({ children }: ILayout) => {
     }
   }, [])
 
-  return <>{children}</>
+  return <div>{children}</div>
 }
 
 export default Layout

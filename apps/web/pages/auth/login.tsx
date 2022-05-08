@@ -1,6 +1,6 @@
 import Layout from '../../components/Layout'
 
-const Login = () => {
+function Login() {
   return (
     <Layout>
       <h1>Login</h1>
