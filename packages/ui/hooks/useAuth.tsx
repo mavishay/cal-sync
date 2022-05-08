@@ -1,9 +1,7 @@
 import { useCallback } from 'react'
 
 export const useAuth = () => {
-  const isApproved = useCallback(() => {
-    return false
-  }, [])
+  const isApproved = useCallback(() => false, [])
 
   return { isApproved }
 }
