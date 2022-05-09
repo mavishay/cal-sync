@@ -1,7 +1,7 @@
 import React from 'react'
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { render, screen } from '@testing-library/react'
-import Login from './login'
+import Login from '../pages/auth/login'
 import '@testing-library/jest-dom'
 
 jest.mock('next/router', () => ({
