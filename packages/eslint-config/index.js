@@ -8,5 +8,6 @@ module.exports = {
     'react/jsx-key': 'off',
     'react/react-in-jsx-scope': 'off',
     'react-hooks/exhaustive-deps': 'warn',
+    'jsx-a11y/anchor-is-valid': 'warn',
   },
 }
