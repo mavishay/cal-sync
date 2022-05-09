@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import { LockClosedIcon } from '@heroicons/react/solid'
 import Layout from '../../components/Layout'
 

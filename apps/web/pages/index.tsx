@@ -3,9 +3,9 @@ import Layout from '../components/Layout'
 
 export default function Web() {
   return (
-    <Layout>
+    <Layout title="Home">
       <h1>Web</h1>
-      <Button />
+      <Button>Boop</Button>
     </Layout>
   )
 }
